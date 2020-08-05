@@ -58,7 +58,7 @@
                                     <div class="collapse"
                                         id="collapse-2">
                                         <div class="bg-white border rounded py-2 collapse-inner">
-                                            <h6 class="collapse-header">Lihat Data:</h6><a class="collapse-item" href="tlihatadmin.php">Lihat Data</a>
+                                            <h6 class="collapse-header">Lihat Data:</h6><a class="collapse-item" href="timelinelihatadmin.php">Lihat Data</a>
                                         </div>
                                     </div>
                                 </div>
@@ -91,9 +91,7 @@
                             <li class="nav-item dropdown no-arrow" role="presentation">
                                 <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><span class="d-none d-lg-inline mr-2 text-dark"><?php echo  $_SESSION["username"] ?></span><img class="border rounded-circle img-profile" src="img/profile.svg" ></a>
                                     <div
-                                        class="dropdown-menu shadow dropdown-menu-right animated--grow-in" role="menu"><a class="dropdown-item" role="presentation" href="timelineprofile.php"><i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Profile</a><a class="dropdown-item" role="presentation" href="#"><i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Settings</a>
-                                       
-                                            <div class="dropdown-item"></div><a class="dropdown-item" role="presentation" href="logout.php"><i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Logout</a></div>
+                                        class="dropdown-menu shadow dropdown-menu-right animated--grow-in" role="menu"><a class="dropdown-item" role="presentation" href="logout.php"><i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Log out</a>                                       
                     </div>
                     </li>
                     </ul>
