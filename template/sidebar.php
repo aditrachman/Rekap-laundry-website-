@@ -58,7 +58,7 @@
                                     <div class="collapse"
                                         id="collapse-2">
                                         <div class="bg-white border rounded py-2 collapse-inner">
-                                            <h6 class="collapse-header">Lihat Data:</h6><a class="collapse-item" href="timelinelihatadmin.php">Lihat Data</a>
+                                            <h6 class="collapse-header">Lihat Data:</h6><a class="collapse-item" href="tlihatadmin.php">Lihat Data</a>
                                         </div>
                                     </div>
                                 </div>
